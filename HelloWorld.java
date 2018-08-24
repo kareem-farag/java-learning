@@ -1,6 +1,17 @@
+package HelloWorld;
+// using the hello world and printing classes to print "hello world"
+// Hello World is the main class for the HelloWorld Project
 public class HelloWorld {
-  public static void main (String[] args){
-     System.out.println("Hello World");
+
     
+  public String PrntText = "Hello ";  
+  
+  public static void main (String[] args){
+
+    
+    
+    printing prnt = new printing() ; 
   }
+  
+  
 }
