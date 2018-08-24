@@ -1,0 +1,27 @@
+package HelloWorld;
+import java.util.Scanner;
+// Users class is to check the user input and insure that user is authorized
+public class UsersClass {
+
+    
+  private String PrntText = "Hello ";  
+  private String UserData[][] = new String[5][5] ;
+  
+  public static void main (String[] args){
+    Scanner scanner = new Scanner(System.in);
+    
+    String InputVal =scanner.nextLine();
+    System.out.println(InputVal);
+
+    
+    printing prnt = new printing() ; 
+  }
+  public Boolean CheckUser(){
+    
+  }
+  
+  public String helloPrnt (){
+    return this.PrntText ; 
+  }
+  
+}
