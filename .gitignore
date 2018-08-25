@@ -1,0 +1,6 @@
+# Compiled java classes
+*.class
+
+# intelliJ project configuration files
+*.iml
+.idea
